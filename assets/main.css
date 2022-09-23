@@ -142,8 +142,8 @@ Grid
   box-sizing: border-box;
 }
 body {
-  background-color: #0d0800;
-  background-image: url("img/sunset.jpeg");
+  background-color: #0b0b0b;
+  background-image: url("img/street.jpeg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: top;
@@ -169,4 +169,39 @@ body {
   height: 50px;
   margin-bottom: 10px;
   width: 50px;
+}
+/*
+=====================================
+Typography
+=====================================
+*/
+h1,
+p {
+  color: #ffffff;
+  font-family: sans-serif;
+  margin-bottom: 22px;
+}
+h1 {
+  text-shadow: 2px 2px #000000;
+  float: left;
+  font-size: 2.5em;
+  font-family: "Create Round", sans-serif;
+}
+p {
+  clear: both;
+  color: #f1f1f1;
+  font-size: 14px;
+  line-height: 22px;
+}
+/*
+=====================================
+Footer
+=====================================
+*/
+footer a {
+  color: #ffffff;
+}
+i {
+  margin-right: 30px;
+  font-size: 30px;
 }
